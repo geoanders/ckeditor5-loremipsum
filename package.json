@@ -1,6 +1,6 @@
 {
-  "name": "@ckeditor/ckeditor5-loremipsum",
-  "version": "19.0.0",
+  "name": "ckeditor5-loremipsum",
+  "version": "1.0.0",
   "description": "Lorem ipsum feature for CKEditor 5.",
   "keywords": [
     "ckeditor",
@@ -33,7 +33,7 @@
     "node": ">=8.0.0",
     "npm": ">=5.7.1"
   },
-  "author": "George Anderson",
+  "author": "George Anderson <geo.anders@gmail.com>",
   "license": "GPL-2.0-or-later",
   "homepage": "https://ckeditor.com",
   "bugs": "https://github.com/geoanders/ckeditor5-loremipsum/issues",
