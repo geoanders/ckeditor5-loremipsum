@@ -11,14 +11,14 @@ export default class LoremIpsum extends Plugin {
 	/**
 	 * @inheritDoc
 	 */
-	public static get requires(): PluginDependencies {
+	static get requires() {
 		return [ LoremIpsumUI, Widget ];
 	}
 
 	/**
 	 * @inheritDoc
 	 */
-	public static get pluginName(): 'LoremIpsum' {
+	static get pluginName() {
 		return 'LoremIpsum';
 	}
 }
