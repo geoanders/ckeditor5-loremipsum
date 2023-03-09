@@ -41,7 +41,7 @@ export default class LoremIpsumUI extends Plugin {
           var paragraphsArray = new Array();
           for (var i = 0; i < count; i++) {
             // random number between 10 and 20
-            paragraphsArray.push('<p>' + generateLoremText(Math.floor((Math.random() * 10) + 10), LOREM_TEXT_TYPE.SENTENCE) + '</p>');
+            paragraphsArray.push('<p>' + generateLoremIpsum(Math.floor((Math.random() * 10) + 10), LOREM_TEXT_TYPE.SENTENCE) + '</p>');
           }
           return paragraphsArray.join('\n');
 
@@ -52,7 +52,7 @@ export default class LoremIpsumUI extends Plugin {
           var sentencesArray = new Array();
           for (var i = 0; i < count; i++) {
             // random number between 5 and 10
-            var words = generateLoremText(Math.floor((Math.random() * 5) + 5), LOREM_TEXT_TYPE.WORD).split(' ');
+            var words = generateLoremIpsum(Math.floor((Math.random() * 5) + 5), LOREM_TEXT_TYPE.WORD).split(' ');
             // Capitalize first letter
             words[0] = words[0].substr(0, 1).toUpperCase() + words[0].substr(1);
             var sentences = words.join(' ');
@@ -70,6 +70,8 @@ export default class LoremIpsumUI extends Plugin {
 
           break;
       }
+
+      return '';
     };
 
     // Add button to feature components.
