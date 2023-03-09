@@ -2,14 +2,13 @@
  * @module loremipsum/loremipsumui
  */
 
-import Plugin from '@ckeditor/ckeditor5-core/src/plugin';
-import ButtonView from '@ckeditor/ckeditor5-ui/src/button/buttonview';
+import { Plugin } from 'ckeditor5/src/core';
+import { ButtonView } from 'ckeditor5/src/ui';
+
 import loremIpsumIcon from '../theme/icons/loremipsum.svg';
 
 /**
  * The Lorem Ipsum UI plugin.
- *
- * @extends module:core/plugin~Plugin
  */
 export default class LoremIpsumUI extends Plugin {
   init() {
