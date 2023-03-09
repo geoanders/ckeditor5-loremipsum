@@ -2,7 +2,7 @@
  * @module loremipsum/loremipsum
  */
 
-import { Plugin, type PluginDependencies } from 'ckeditor5/src/core';
+import { Plugin } from 'ckeditor5/src/core';
 import { Widget } from 'ckeditor5/src/widget';
 
 import LoremIpsumUI from './loremipsumui';
