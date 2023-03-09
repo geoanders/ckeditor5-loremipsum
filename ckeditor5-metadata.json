@@ -1,0 +1,18 @@
+{
+	"plugins": [
+		{
+			"name": "Lorem ipsum",
+			"className": "LoremIpsum",
+			"description": "",
+			"docs": "",
+			"path": "src/loremipsum.js",
+			"uiComponents": [
+				{
+					"type": "Button",
+					"name": "loremIpsum",
+					"iconPath": "theme/icons/loremipsum.svg"
+				}
+			]
+		}
+	]
+}
