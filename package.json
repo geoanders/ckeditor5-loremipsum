@@ -1,6 +1,6 @@
 {
   "name": "ckeditor5-loremipsum",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Lorem ipsum feature for CKEditor 5.",
   "keywords": [
     "ckeditor",
@@ -10,7 +10,6 @@
     "ckeditor5-plugin",
     "ckeditor5-dll"
   ],
-  "main": "src/index.ts",
   "dependencies": {
     "ckeditor5": "^36.0.1"
   },
@@ -45,14 +44,12 @@
   "files": [
     "lang",
     "src/**/*.js",
-    "src/**/*.d.ts",
     "theme",
     "build",
     "ckeditor5-metadata.json"
   ],
   "scripts": {
     "dll:build": "webpack",
-    "build": "tsc -p ./tsconfig.json",
     "postversion": "npm run build"
   }
 }
